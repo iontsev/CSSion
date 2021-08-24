@@ -1,0 +1,134 @@
+
+/*  =
+ *  Style
+ */ 
+
+    :root {
+
+    /*  Size  */
+
+        --span--size--prime: var(--span--size--9);
+        --span--size--usual: var(--span--size--2);
+        --span--size--other: var(--span--size--1);
+
+        --edge--size--prime: var(--edge--size--9);
+        --edge--size--usual: var(--edge--size--2);
+        --edge--size--other: var(--edge--size--1);
+
+        --bend--size--prime: var(--bend--size--9);
+        --bend--size--usual: var(--bend--size--2);
+        --bend--size--other: var(--bend--size--1);
+
+        --line--size--prime: var(--line--size--9);
+        --line--size--usual: var(--line--size--2);
+        --line--size--other: var(--line--size--1);
+
+        --font--size--prime: var(--font--size--9);
+        --font--size--usual: var(--font--size--2);
+        --font--size--other: var(--font--size--1);
+
+    /*  Font  */
+
+        --font--prime: var(--font--serif);
+        --font--usual: var(--font--sans-serif);
+        --font--other: var(--font--sans-serif);
+
+    /*  Tint  */
+
+        --tint--prime: var(--tint--black);
+        --tint--usual: var(--tint--murky);
+        --tint--other: var(--tint--grey);
+        --tint--vivid: var(--tint--blue);
+
+        }
+
+
+
+
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit;
+        line-height: var(--line--size--2);
+        font-size: var(--font--size--2);
+        }
+
+
+
+
+
+    ::selection {
+        background-color: var(--tint--vivid);
+        color: var(--tint--white);
+        }
+
+
+
+
+
+	html,
+    body {
+        background-color: var(--tint--white);
+        line-height: var(--line--size--2);
+        font-size: var(--font--size--2);
+        font-family: var(--font--usual);
+        color: var(--tint--usual);
+        }
+
+
+
+
+
+/*  ==
+ *  Helpers
+ */
+
+    .\#none,
+    .\#note:not(:target),
+    .\#open:target .\#open\>meta,
+    .\#open:not(:target) .\#open\>data {
+        display: none;
+        }
+
+
+
+
+
+    .\#line {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        }
+
+
+
+
+
+    .\#prime {
+        border-color: var(--tint--prime);
+        background-color: var(--tint--prime);
+        font-family: var(--font--prime);
+        font-weight: bold;
+        color: var(--tint--white);
+        }
+
+    .\#usual {
+        border-color: var(--tint--usual);
+        background-color: var(--tint--usual);
+        font-family: var(--font--usual);
+        color: var(--tint--white);
+        }
+
+    .\#other {
+        border-color: var(--tint--other);
+        background-color: var(--tint--other);
+        font-family: var(--font--other);
+        font-style: italic;
+        color: var(--tint--white);
+        }
+
+
+
+
+
+/*  Made by Sergey Iontsev  */

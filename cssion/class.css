@@ -1,0 +1,312 @@
+
+/*  =
+ *  Class
+ */ 
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit;
+        }
+
+
+
+    html {
+        display: block;
+        position: relative;
+        overflow: auto;
+        box-sizing: border-box;
+        border-width: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        line-height: 1.2;
+        font-size: 100%;
+        font-family: sans-serif;
+        color: black;
+        }
+
+
+
+    body {
+        display: block;
+        margin: 0;
+        }
+
+
+
+
+
+/*  ==
+ *  Document sections
+ */
+
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+        display: block;
+        margin: 0;
+        }
+
+
+
+    section,
+    article,
+    address {
+        display: block;
+        margin: 0;
+        }
+
+
+
+    hgroup,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: block;
+        margin: 0;
+        }
+
+
+
+
+
+/*  ==
+ *  Grouping content
+ */
+
+    div {
+        display: block;
+        margin: 0;
+        }
+
+
+
+    table,
+    thead,
+    tbody,
+    tfoot,
+    colgroup,
+    col,
+    caption,
+    tr,
+    th,
+    td {
+        margin: 0;
+        }
+
+
+
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li {
+        display: block;
+        margin: 0;
+        }
+
+
+
+    p,
+    blockquote,
+    pre {
+        display: block;
+        margin: 0;
+        }
+    pre {
+        font-size: 1em;
+        font-family: monospace, monospace;
+        }
+
+
+
+    figure,
+    figcaption {
+        display: block;
+        margin: 0;
+        }
+
+
+
+    hr,
+    br {
+        display: block;
+        margin: 0;
+        }
+    hr {
+        overflow: visible;
+        box-sizing: content-box;
+        height: 0;
+        }
+
+
+
+
+
+/*  ==
+ *  Text-level semantic
+ */
+
+    abbr,
+    b,
+    bdi,
+    bdo,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    i,
+    ins,
+    kbd,
+    mark,
+    q,
+    rp,
+    rt,
+    ruby,
+    s,
+    strike,
+    samp,
+    small,
+    span,
+    strong,
+    sub,
+    sup,
+    time,
+    var,
+    wbr {
+        display: inline;
+        margin: 0;
+        }
+    abbr[title] {
+        border-bottom: none;
+        text-decoration: underline dotted;
+        }
+    b,
+    strong {
+        font-weight: bolder;
+        }
+    code,
+    kbd,
+    samp {
+        font-family: monospace, monospace;
+        font-size: 1em;
+        }
+    small {
+        font-size: 80%;
+        }
+
+
+
+    sub,
+    sup {
+        position: relative;
+        vertical-align: baseline;
+        line-height: 0;
+        font-size: 75%;
+        }
+    sub {
+        bottom: -0.25em;
+        }
+    sup {
+        top: -0.5em;
+        }
+
+
+
+
+
+/*  ==
+ *  Interactive elements
+ */
+
+    menu,
+    command,
+    details,
+    summary {
+        margin: 0;
+        }
+
+    details,
+    summary {
+        display: block;
+        }
+
+
+
+    button,
+    fieldset,
+    form,
+    input,
+    keygen,
+    label,
+    legend,
+    optgroup,
+    option,
+    output,
+    select,
+    textarea {
+        margin: 0;
+        }
+    a {
+        display: inline;
+        background-color: transparent;
+        }
+
+
+
+
+
+/*  ==
+ *  Embedding content
+ */
+
+    audio,
+    canvas,
+    embed,
+    iframe,
+    img,
+    map,
+    area,
+    object,
+    param,
+    source,
+    track,
+    video {
+        display: block;
+        margin: 0;
+        border-width: 0;
+        border-style: none;
+        }
+    img {
+        border-style: none;
+        }
+
+
+
+
+
+/*  ==
+ *  Hidden elements
+ */
+
+    template {
+        display: none;
+        }
+    [hidden] {
+        display: none;
+        }
+
+
+
+
+
+/*  Made by Sergey Iontsev  */
